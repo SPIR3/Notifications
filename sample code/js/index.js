@@ -46,7 +46,7 @@ function createDialog() {
 function dialogDismissed(buttonIndex) {
 	
 	if(buttonIndex==1) new Toast({content: "Well met!", duration: 3000});
-   	else if(buttonIndex==2) new Toast({content: '...oh...', duration: 3000});
+   	else if(buttonIndex==2) new Toast({content: '...Ooh...', duration: 3000});
 
 }
 
@@ -66,8 +66,8 @@ function createNotification() {
     
     cordova.plugins.notification.local.schedule({ 
     	id: 		1,
-        title: 		"Hey you",
-        message: 	"This is an example notification",
+        title: 		"Hey you!",
+        message: 	"IT's TIME! TO D-D-D-DUEL!",
         date: 		notificationTime, 
         badge: 		notification_count++
    	});
